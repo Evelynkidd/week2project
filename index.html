@@ -8,40 +8,69 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-<!-- first question -->
-    <h4>What working environement do you prefer?</h4>
-    <select class="form-control" id="question1">
-      <option value="1">Corporate, large business</option>
-      <option value="2">Enterprise, Android</option>
-      <option value="3">Anywhere</option>
-    </select>
-<!-- second question -->
-    <h4>What working environement do you prefer?</h4>
-    <select class="form-control" id="question2">
-      <option value="1">Corporate, large business</option>
-      <option value="2">Enterprise, Android</option>
-      <option value="3">Anywhere</option>
-    </select>
-<!-- third question -->
-    <h4>What working environement do you prefer?</h4>
-    <select class="form-control" id="question3">
-      <option value="1">Corporate, large business</option>
-      <option value="2">Enterprise, Android</option>
-      <option value="3">Anywhere</option>
-    </select>
-<!-- fourth question -->
-    <h4>What working environement do you prefer?</h4>
-    <select class="form-control" id="question4">
-      <option value="1">Corporate, large business</option>
-      <option value="2">Enterprise, Android</option>
-      <option value="3">Anywhere</option>
-    </select>
-<!-- fifth question -->
-    <h4>What working environement do you prefer?</h4>
-    <select class="form-control" id="environment">
-      <option value="1">Corporate, large business</option>
-      <option value="2">Enterprise, Android</option>
-      <option value="3">Anywhere</option>
-    </select>
+    <div class="jumbotron">
+      <h2>Epicodus Track Selector</h2>
+      <p>Select your answers to below to see which track you should be placed in</p>
+    </div>
+    <div class="container">
+      <form id="quiz">
+  <!-- first question -->
+        <h4>What workplace culture do you prefer?</h4>
+        <select class="form-control" id="question1">
+          <option value="1">Good benefits, low-risk, beurocratic</option>
+          <option value="2">I'm not concerned with culture</option>
+          <option value="3">Riskier, but possibly more rewards</option>
+        </select>
+    <!-- second question -->
+        <h4>What working environment do you prefer?</h4>
+        <select class="form-control" id="question2">
+          <option value="1">Corporate, large business</option>
+          <option value="2">Enterprise</option>
+          <option value="3">Start-ups and small companies</option>
+        </select>
+    <!-- third question -->
+        <h4>What kind of apps do you want to work on?</h4>
+        <select class="form-control" id="question3">
+          <option value="1">Microsoft, Mac, and Linux</option>
+          <option value="2">Android</option>
+          <option value="3">Interactive</option>
+        </select>
+    <!-- fourth question -->
+        <h4>What salary do you prefer?</h4>
+        <select class="form-control" id="question4">
+          <option value="1">$85,000</option>
+          <option value="2">$110,000</option>
+          <option value="3">$120,000</option>
+        </select>
+    <!-- fifth question -->
+        <h4>How many coworkers do you prefer?</h4>
+        <select class="form-control" id="question5">
+          <option value="1">Hundreds</option>
+          <option value="2">Somewhere between tiny and gigantic</option>
+          <option value="3">A small team of 5-20</option>
+        </select>
+  <!-- submit button -->
+        <button type="submit" class="btn-success">Which track is best for me?</button>
+      </form>
+  <!-- Java Result -->
+      <div id="JavaAnswer">
+        <p>You should take the Java track.</p>
+      <img src="">
+      </div>
+
+  <!-- C# Result -->
+      <div id="CSharpAnswer">
+        <p>You should take the C# track.</p>
+      </div>
+
+  <!-- Ruby Result -->
+      <div id="RubyAnswer">
+        <p>You should take the Ruby track.</p>
+      </div>
+  <!-- Ruby Result -->
+      <div id="NoAnswer">
+        <p>You didn't match with any track. Try again!</p>
+      </div>
+    <div class="container">
   </body>
 </html>
