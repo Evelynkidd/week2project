@@ -13,3 +13,10 @@
 #NoAnswer {
   display: none;
 }
+
+p {
+  border: 3px solid grey;
+  float: center;
+  text-align: center;
+  color: purple;
+}

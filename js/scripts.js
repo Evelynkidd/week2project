@@ -16,13 +16,13 @@ $(document).ready(function() {
   // console.log(result)
 
   if (questionone === 2 && questiontwo === 2 && questionthree === 2 && questionfour === 2 && questionfive === 2) {
-  $("#JavaAnswer").toggle();
+  $("#JavaAnswer").fadeToggle();
 } else if (questionone === 1 && questiontwo === 1 && questionthree == 1 && questionfour === 1 && questionfive === 1) {
-    $("#CSharpAnswer").toggle();
+    $("#CSharpAnswer").fadeToggle();
   } else if (questionone === 3 && questiontwo === 3 && questionthree === 3 && questionfour === 3 && questionfive === 3) {
-    $("#RubyAnswer").toggle();
+    $("#RubyAnswer").fadeToggle();
   } else {
-    $("#NoAnswer").toggle();
+    $("#NoAnswer").fadeToggle();
     }
   });
 });
