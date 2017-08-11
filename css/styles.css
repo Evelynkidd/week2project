@@ -15,8 +15,24 @@
 }
 
 p {
-  border: 3px solid grey;
-  float: center;
   text-align: center;
   color: purple;
+  font-size: 150%;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.jumbotron {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8ANq2ohg1ic3uJJW-CScLJSs-XrgG1k0RqIFgF1F7E0fBfaDn') no-repeat center center;
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
 }
