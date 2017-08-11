@@ -7,9 +7,13 @@ $(document).ready(function() {
   var questionthree = parseInt($("#question3").val())
   var questionfour = parseInt($("#question4").val())
   var questionfive = parseInt($("#question5").val())
-
-  var result = questionthree
+  var nameInput = $("input.name").val();
+  $(".name1").text(nameInput);
+  var result = nameInput
   console.log(result)
+
+  // var result = questionthree
+  // console.log(result)
 
   if (questionone === 2 && questiontwo === 2 && questionthree === 2 && questionfour === 2 && questionfive === 2) {
   $("#JavaAnswer").toggle();
